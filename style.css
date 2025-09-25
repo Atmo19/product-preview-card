@@ -1,43 +1,51 @@
 * {
-    /* outline: 1px solid red; */
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+  /* outline: 1px solid red; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
 }
-
-body{
-    /* padding: 100vh; */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(30,38%,92%);
+ 
+body {
+  padding: 1rem;
+  /* width: 300px;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
 }
-
-.design{
-    position: absolute;
-z-index: -1;
-opacity: 0.3;
-width: 375px;
+ 
+/* responsive image */
+img {
+  width: 100%;
 }
-
-img{
-    width: 100%;
+ 
+.design {
+  position: absolute;
+  z-index: -1;
+  opacity: 1;
+  width: 375px;
 }
-
-
-.card{
-    width: 350px;
-    background-color: white
+ 
+.card {
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
 }
-
-.card-body{
-padding: 30px;
+ 
+.card-body {
+  padding: 30px;
 }
-
-h2{
-    font-family: "fraunces", serif;
+ 
+.product-name {
+  font-family: "Fraunces", serif;
+  color: black;
+  font-size: 2em;
+}
+ 
+.product-type {
+  text-transform: uppercase;
 }
