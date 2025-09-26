@@ -42,7 +42,7 @@ img {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 30px;
   
 }
  
@@ -91,4 +91,12 @@ img {
 .product-description{
   line-height:1.5;
   font-weight: 500;
+}
+
+.cart-btn:hover{
+  cursor:pointer;
+}
+
+.cart-btn:active{
+  background-color: hsl(158, 42%, 18%);
 }
