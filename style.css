@@ -4,6 +4,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "montserrat", sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
 }
  
 body {
@@ -41,6 +43,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
  
 .product-name {
